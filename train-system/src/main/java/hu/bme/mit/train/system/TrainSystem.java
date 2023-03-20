@@ -18,7 +18,7 @@ public class TrainSystem {
 	}
 
 	public TrainSensor getSensor() {
-		System.out.println("aaaa");
+		System.out.println("bbb");
 		return sensor;
 	}
 
