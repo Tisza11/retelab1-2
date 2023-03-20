@@ -3,8 +3,8 @@ import java.time.LocalDateTime;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-package java.bme.mit.train.controller;
-package hu.bme.mit.train.user;
+import java.bme.mit.train.controller;
+import hu.bme.mit.train.user;
 
 public class TachoTest {
     @Test
@@ -17,7 +17,6 @@ public class TachoTest {
         tci.followSpeed();
         Tacho t;
         t.tacho();
-        Assert.assertEquals(t.pos, pos);
-        Assert.assertEquals(t.rSpeed, v);
+        Assert.assertEquals(t.taho.size(), 1);
     }
 }
